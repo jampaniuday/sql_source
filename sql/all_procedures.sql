@@ -2,7 +2,6 @@ column object_name format a40
 
 ttitle center "***** ALL_PROCEDURES View *****" skip 2
 
-
 SELECT object_name,
        procedure_name,
        object_id,
