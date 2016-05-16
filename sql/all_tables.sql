@@ -15,7 +15,6 @@ SELECT owner,
        num_rows,
        avg_row_len,
        blocks,
---       chain_cnt,
        last_analyzed
   FROM all_tables
 ORDER BY table_name;
