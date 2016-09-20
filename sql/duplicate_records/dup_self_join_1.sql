@@ -1,5 +1,6 @@
--- Use self-join to detect duplicate rows
--- The most effective way to detect duplicate rows is to join the table against itself as shown below. 
+-- Use self-join to detect duplicate rows.
+-- The most effective way to detect duplicate rows
+-- is to join the table against itself as shown below. 
 
 SELECT book_unique_id, page_seq_nbr, image_key 
   FROM page_image a 

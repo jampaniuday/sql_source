@@ -1,6 +1,8 @@
--- Rob Arden states:  The tip on this page helped with removing duplicate rows from Oracle tables.
+-- Rob Arden states:  The tip on this page helped
+-- with removing duplicate rows from Oracle tables.
 -- I thought this might be useful so I'm passing it on.
--- I needed to add a null check because this fails to remove dupe rows where the fields match on a null value.  
+-- I needed to add a null check because this fails
+-- to remove dupe rows where the fields match on a null value.  
 
 DELETE FROM table_name a
  WHERE a.rowid > ANY (SELECT b.rowid
