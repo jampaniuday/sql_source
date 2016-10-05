@@ -1,7 +1,7 @@
 ttitle center '***** DBA_EXTENTS View *****' -
        right 'Page: ' format 99 sql.pno skip 2
  
-column owner format a15
+column owner format a16
 column segment_name format a30
 column bytes format 999,999,999
 
