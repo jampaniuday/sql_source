@@ -1,1 +1,2 @@
-This line was added and commited in the master branch.
+This line was added and commited in the master branch.  What will happen next?
+Who can say?
