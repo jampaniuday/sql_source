@@ -10,6 +10,7 @@ SELECT a.object_name arg_obj_name,
        argument_name,
        position,
        sequence,
+       data_level,
        data_type,
        in_out
   FROM user_arguments a 
